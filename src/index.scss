@@ -1,0 +1,66 @@
+:host {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+#face {
+    width: inherit;
+    height: inherit;
+    border: 1px solid black;
+    border-radius: 300px;
+    position: absolute;
+    // left: 300px;
+
+    #center-dot {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 145px;
+        top: 140px;
+        border-radius: 10px;
+        background: black;
+        z-index: 4;
+    }
+
+    .hand {
+        position: absolute;
+        left: 150px;
+        border: 1px solid black;
+        background: grey;
+        transform-origin: bottom center;
+    }
+
+    #second-hand {
+        top: 5px;
+        width: 2px;
+        height: 140px;
+        z-index: 3;
+    }
+
+    #minute-hand {
+        top: 5px;
+        width: 4px;
+        height: 140px;
+        z-index: 2;
+    }
+
+    #hour-hand {
+        top: 40px;
+        width: 4px;
+        height: 100px;
+        z-index: 1;
+    }
+
+    .major {
+        border: 3px solid black;
+    }
+
+    .second-pt {
+        position: absolute;
+        width: 1px;
+        height: 5px;
+        background: black;
+        transform-origin: center;
+    }
+}
