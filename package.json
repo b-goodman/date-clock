@@ -1,7 +1,7 @@
 {
   "name": "@bgoodman/date-clock",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple analog clock as a custom element.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/rollup -c ./rollup.config.js",
@@ -26,5 +26,9 @@
     "serve": "^11.2.0",
     "typescript": "^3.7.2",
     "typescript-plugin-css-modules": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b-goodman/date-clock"
   }
 }
