@@ -34,13 +34,6 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@types/codemirror@0.0.80":
-  version "0.0.80"
-  resolved "https://registry.yarnpkg.com/@types/codemirror/-/codemirror-0.0.80.tgz#c047bb30462582615c3d51e5be6155315f764427"
-  integrity sha512-oTi/s9PkWo3+/L9UrRpqngc4i6fRFMp3YQS0nv3Wy5vjl9n6GsqI9oNF6rjl/7J16Ipe67F9eatwRMTSB/Bo0w==
-  dependencies:
-    "@types/tern" "*"
-
 "@types/estree@*":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.42.tgz#8d0c1f480339efedb3e46070e22dd63e0430dd11"
@@ -67,13 +60,6 @@
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   dependencies:
     "@types/node" "*"
-
-"@types/tern@*":
-  version "0.23.3"
-  resolved "https://registry.yarnpkg.com/@types/tern/-/tern-0.23.3.tgz#4b54538f04a88c9ff79de1f6f94f575a7f339460"
-  integrity sha512-imDtS4TAoTcXk0g7u4kkWqedB3E4qpjXzCpD2LU5M5NAXHzCDsypyvXSaG7mM8DKYkCRa7tFp4tS/lp/Wo7Q3w==
-  dependencies:
-    "@types/estree" "*"
 
 "@zeit/schemas@2.6.0":
   version "2.6.0"
@@ -1387,9 +1373,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.13, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lru-cache@^4.0.1:
   version "4.1.5"
